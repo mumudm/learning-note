@@ -46,7 +46,7 @@ public @interface TestAnnotation {
 
 `@Target` 可以定义 Annotation 能够被应用于源码的哪些位置(可以是一个或多个，一个可以可以省略数组的写法)：
 - 类或接口：`ElementType.TYPE`
-- 字段：`ElementType.FIELD`
+- 字段：`ElementType.FIELD`             
 - 方法：`ElementType.METHOD`
 - 构造方法：`ElementType.CONSTRUCTOR`
 - 方法参数：`ElementType.PARAMETER`
