@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="04ea28ae-73c7-448d-bf14-07d1a8094f44" name="Default Changelist" comment="feat: Annotation">
+      <change afterPath="$PROJECT_DIR$/tmp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/src/main/java/top/mumudm/tmp/TmpApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/src/test/java/top/mumudm/tmp/geektime/CleanHtml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/docs/Annotation.md" beforeDir="false" afterPath="$PROJECT_DIR$/se/docs/Annotation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/se/se.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,20 +41,25 @@
     <option name="defaultAccountId" value="72fab8dc-b873-4560-a18b-37c627004f1d" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/local/Cellar/maven/3.6.3_1/libexec" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings1.xml" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1awg1LpRklPfwYLO3iWD2fvRNar" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -51,7 +68,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
+    <property name="settings.editor.selected.configurable" value="build.tools" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -64,18 +81,81 @@
       <recent name="$PROJECT_DIR$/se/src/main/java" />
     </key>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+  <component name="RunManager" selected="JUnit.CleanHtml.readFile">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CleanHtml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tmp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.mumudm.tmp.geektime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.mumudm.tmp.geektime" />
+      <option name="MAIN_CLASS_NAME" value="top.mumudm.tmp.geektime.CleanHtml" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CleanHtml.readFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tmp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.mumudm.tmp.geektime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.mumudm.tmp.geektime" />
+      <option name="MAIN_CLASS_NAME" value="top.mumudm.tmp.geektime.CleanHtml" />
+      <option name="METHOD_NAME" value="readFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CleanHtml.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tmp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.mumudm.tmp.geektime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.mumudm.tmp.geektime" />
+      <option name="MAIN_CLASS_NAME" value="top.mumudm.tmp.geektime.CleanHtml" />
+      <option name="METHOD_NAME" value="t" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TmpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tmp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.mumudm.tmp.TmpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
       <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
+        <item itemvalue="JUnit.CleanHtml.readFile" />
+        <item itemvalue="JUnit.CleanHtml.t" />
+        <item itemvalue="JUnit.CleanHtml" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -88,6 +168,7 @@
       <updated>1587651853673</updated>
       <workItem from="1587651855277" duration="2024000" />
       <workItem from="1588064705377" duration="142000" />
+      <workItem from="1609984870635" duration="8314000" />
     </task>
     <task id="LOCAL-00001" summary="feat: init">
       <created>1587652709587</created>
@@ -107,50 +188,12 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: init" />
     <MESSAGE value="feat: Annotation" />
     <option name="LAST_COMMIT_MESSAGE" value="feat: Annotation" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="440" y="202" key="#Project_Structure" timestamp="1587652213193">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="440" y="202" key="#Project_Structure/0.23.1680.1027@0.23.1680.1027" timestamp="1587652213193" />
-    <state x="454" y="232" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1587652182813">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="454" y="232" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1587652182813" />
-    <state x="409" y="138" key="CommitChangelistDialog2" timestamp="1587658908132">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="409" y="138" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1587658908132" />
-    <state x="621" y="420" width="437" height="292" key="Github.ShareDialog" timestamp="1587652598558">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="621" y="420" width="437" height="292" key="Github.ShareDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1587652598558" />
-    <state x="595" y="247" key="Github.UntrackedFilesDialog" timestamp="1587652584565">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="595" y="247" key="Github.UntrackedFilesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1587652584565" />
-    <state x="328" y="118" key="SettingsEditor" timestamp="1588064768733">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="328" y="118" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1588064768733" />
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1587658911044">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1587658911044" />
-    <state x="623" y="460" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587658896546">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="623" y="460" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.1027@0.23.1680.1027" timestamp="1587658896546" />
-    <state x="217" y="234" key="new project wizard" timestamp="1587652157647">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="217" y="234" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1587652157647" />
   </component>
 </project>
