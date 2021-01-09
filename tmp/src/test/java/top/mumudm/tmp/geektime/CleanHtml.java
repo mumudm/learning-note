@@ -68,7 +68,6 @@ public class CleanHtml {
         String subSuf = StrUtil.subSuf(span, clean.indexOf('<') + 1);
         String commentHtml = "<h2>留言</h2>\n" + subSuf;
 
-
         File newFile = new File(path + fileName);
         FileUtil.touch(newFile);
         FileUtil.writeString(html, newFile, StandardCharsets.UTF_8);
